@@ -1,5 +1,6 @@
 /**
  * Starting the app with: npm run dev
+ * Deploy the app with : npm run deploy
  */
 
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
