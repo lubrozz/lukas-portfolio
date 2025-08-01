@@ -192,22 +192,32 @@ footer {
 .circle {
   width: 50vw; /* Adjusts circle size based on viewport width */
   height: 50vw; /* Keeps it circular regardless of screen size */
-  line-height: 50vw; /* Centers text vertically */
-  border-radius: 50%; /* Keeps it circular */
-  font-size: 8vw; /* Scales font size with screen size */
-  color: #fff;
-  text-align: center;
-  background: #14850a;
   max-width: 500px; /* Prevents the circle from growing too large on wide screens */
   max-height: 500px; /* Ensures the height doesn't exceed 500px */
+  border-radius: 50%; /* Keeps it circular */
+  font-size: 6vw; /* Scales font size with screen size */
+  color: #fff;
+  background: #14850a;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px; /* Optional: gives a little breathing room for wrapped text */
+  box-sizing: border-box;
 }
 
 @media (max-width: 600px) {
   .circle {
     width: 80vw; /* For smaller screens, the circle takes up 80% of the viewport width */
     height: 80vw; 
-    line-height: 80vw;
     font-size: 12vw; /* Adjust font size to ensure it fits well */
+  }
+}
+
+@media (min-width: 1024px) {
+  .circle {
+    font-size: 1.8vw; /* Adjust font size for larger screens to ensure text fits */
   }
 }
 
