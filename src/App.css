@@ -198,6 +198,8 @@ footer {
   color: #fff;
   text-align: center;
   background: #14850a;
+  max-width: 500px; /* Prevents the circle from growing too large on wide screens */
+  max-height: 500px; /* Ensures the height doesn't exceed 500px */
 }
 
 @media (max-width: 600px) {
