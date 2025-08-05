@@ -1,5 +1,6 @@
 import React, { ReactNode } from "react";
 import NavBar from "../components/NavBar";
+import Contact from "../components/Contact";
 
 interface Props {
   children: ReactNode;
@@ -21,9 +22,10 @@ const MainLayout = ({ children }: Props) => {
       <hr className="solid-line"></hr>
       <br></br>
       <main className="center-box text-center">{children}</main>
-      <footer className="text-center">
-        <div className="solid-box">
-          <h2>--------Here is the footer---------</h2>
+      <hr className="solid-line"></hr>
+      <footer>
+        <div id="Contact">
+          <Contact />
         </div>
       </footer>
     </div>
