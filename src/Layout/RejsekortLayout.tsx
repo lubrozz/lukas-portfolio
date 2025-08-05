@@ -5,17 +5,19 @@ import RejsekortScanButton from "../components/RejsekortScanButton";
 
 const RejsekortLayout = () => {
   return (
-    <div>
-      <Link className="button-81" to={"/"}>
-        Back to home
-      </Link>
+    <>
+      <div>
+        <Link className="button-81" to={"/"}>
+          Back to home
+        </Link>
 
-      <RejsekortHeader />
-      <main>
-        <RejsekortScanButton />
-      </main>
-      <RejsekortFooter />
-    </div>
+        <RejsekortHeader />
+        <main>
+          <RejsekortScanButton />
+        </main>
+        <RejsekortFooter />
+      </div>
+    </>
   );
 };
 
