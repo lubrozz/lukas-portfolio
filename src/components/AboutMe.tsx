@@ -42,15 +42,8 @@ const AboutMe = () => {
             on the computer.
           </p>
         </div>
-        <div className="double-element" style={{ border: "1px solid red" }}>
-          <div
-            style={{
-              height: "12rem",
-              width: "25rem",
-              border: "1px solid red",
-              margin: "0.5rem",
-            }}
-          >
+        <div className="double-element border-black">
+          <div className="small-element-containers">
             <h2>Personal information</h2>
             <ul className="emoji-list">
               <li className="item-1">
@@ -64,16 +57,9 @@ const AboutMe = () => {
               <li className="item-5">Nationality: Danish</li>
             </ul>
           </div>
-          <div
-            style={{
-              height: "12rem",
-              width: "25rem",
-              border: "1px solid red",
-              margin: "0.5rem",
-            }}
-          >
-            <h2 className="h2">Interests</h2>
-            <p className="p">
+          <div className="small-element-containers">
+            <h2>Interests</h2>
+            <p>
               I enjoy keeping up with the newest technologies, movies, and
               games. Watching and playing football in my spare time, and animals
               have a special place in my heart. Along with collecting and
