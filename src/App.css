@@ -18,33 +18,38 @@ footer {
   text-align: center;
 }
 
+p {
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+h2 {
+  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.container-footer {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  border: 1px solid red;
+}
+
 .grey {
   background-color: rgb(65, 65, 58);
-}
-
-.h2 {
-  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.p {
-  font-family: "Basier circle", -apple-system, system-ui, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-}
-
-.solid-box {
-  background-color: none;
-  height: 60px;
-  padding: 30px;
-  box-sizing: border-box;
 }
 
 .polyBackground {
@@ -53,6 +58,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /*border: 1px solid blue; */
 }
 
 .center-box {
@@ -60,7 +66,14 @@ footer {
   margin: auto;
   padding: 0.25rem;
   align-content: center;
-  border: 1px solid red;
+  /*border: 1px solid red;*/
+}
+
+.small-element-containers {
+  height: 12rem;
+  width: 25rem;
+  margin: 0.5rem;
+  /*border: 1px solid red;*/
 }
 
 .double-element {
@@ -72,6 +85,11 @@ footer {
   padding: 2rem;
   box-sizing: border-box;
   margin-bottom: 0;
+  /*border: 1px solid red;*/
+}
+
+.border-black {
+  border: 3px solid black;
 }
 
 .nav {
@@ -176,7 +194,7 @@ footer {
 
 .button-81:hover {
   background-color: #79808a;
-  color: #0c0c0c;
+  color: #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -185,8 +203,6 @@ footer {
     padding: 1rem 2rem;
   }
 }
-
-
 
 /* Check for travel-check in */
 .circle {
@@ -198,7 +214,7 @@ footer {
   font-size: 6vw; /* Scales font size with screen size */
   color: #fff;
   background: #14850a;
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -210,7 +226,7 @@ footer {
 @media (max-width: 600px) {
   .circle {
     width: 80vw; /* For smaller screens, the circle takes up 80% of the viewport width */
-    height: 80vw; 
+    height: 80vw;
     font-size: 12vw; /* Adjust font size to ensure it fits well */
   }
 }
@@ -252,4 +268,10 @@ footer {
   border: none;
   padding: 0;
   cursor: pointer;
+}
+
+.icon-email {
+  height: 25px;
+  width: 25px;
+  padding: 0.25rem;
 }
