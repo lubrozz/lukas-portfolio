@@ -6,6 +6,7 @@
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/home";
 import Rejsekort from "./Pages/rejsekort";
+import Projects from "./Pages/projects";
 
 function App() {
   /**
@@ -18,6 +19,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/rejsekort" element={<Rejsekort />} />
+        <Route path="/Projects" element={<Projects />} />
       </Routes>
     </Router>
   );
