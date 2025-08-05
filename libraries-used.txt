@@ -1,0 +1,10 @@
+A list of used libraries and their documentation:
+
+
+
+Social Icons: 
+    https://www.npmjs.com/package/react-social-icons
+    https://react-social-icons.com/
+    
+React Router (Navigating pages): https://reactrouter.com/start/modes
+    React HashLink (scrolling on page): https://www.npmjs.com/package/react-router-hash-link
