@@ -24,9 +24,10 @@ import QuickAbout from "../components/QuickAbout";
 function Home() {
   return (
     <MainLayout>
-      <br></br>
+      <br />
       <QuickAbout />
       <AboutMe />
+      <br />
       <WorkExperience />
     </MainLayout>
   );
