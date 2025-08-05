@@ -1,6 +1,7 @@
 import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 //Add more css to navbar links.
 
@@ -11,13 +12,17 @@ const NavBar = () => {
         <a className="navbar-links" href="#about-me">
           About me
         </a>
-        <a className="navbar-links" href="#work-experience">
+        <HashLink
+          className="navbar-links"
+          smooth
+          to="/lukas-portfolio#work-experience"
+        >
           Work Experience
-        </a>
-        <a className="navbar-links" href="#">
+        </HashLink>
+        <Link className="navbar-links" to={"/Projects"}>
           Projects
-        </a>
-        <a className="navbar-links" href="#">
+        </Link>
+        <a className="navbar-links" href="Contact">
           Contact
         </a>
         <Link className="navbar-links" to={"/rejsekort"}>
