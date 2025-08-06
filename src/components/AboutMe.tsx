@@ -42,6 +42,7 @@ const AboutMe = () => {
             on the computer.
           </p>
         </div>
+        <br />
         <div className="double-element border-black">
           <div className="small-element-containers">
             <h2>Personal information</h2>
@@ -49,12 +50,10 @@ const AboutMe = () => {
               <li className="item-1">
                 Age: {getAge(dateTime)} {bDayMessage}
               </li>
-              <li className="item-2">Email: lukasglo12@gmail.com</li>
-              <li className="item-3">Phone: +45 22 55 08 35</li>
-              <li className="item-4">
-                Address: Ved Mønten 10, 2300, København S
-              </li>
-              <li className="item-5">Nationality: Danish</li>
+              <li>Nationality: Danish</li>
+              <li>Based in: Copenhagen</li>
+              <li>BSc: Global Business Informatics - ITU</li>
+              <li>MSc: Software Design - ITU</li>
             </ul>
           </div>
           <div className="small-element-containers">
