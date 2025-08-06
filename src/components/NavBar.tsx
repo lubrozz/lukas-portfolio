@@ -9,22 +9,12 @@ const NavBar = () => {
   return (
     <>
       <nav className="nav">
-        <a className="navbar-links" href="#about-me">
-          About me
-        </a>
-        <HashLink
-          className="navbar-links"
-          smooth
-          to="/lukas-portfolio#work-experience"
-        >
+        <HashLink className="navbar-links" smooth to="/#work-experience">
           Work Experience
         </HashLink>
         <Link className="navbar-links" to={"/Projects"}>
           Projects
         </Link>
-        <a className="navbar-links" href="Contact">
-          Contact
-        </a>
         <Link className="navbar-links" to={"/rejsekort"}>
           rejsekort app
         </Link>
