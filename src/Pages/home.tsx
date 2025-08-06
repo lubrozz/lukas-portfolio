@@ -26,6 +26,7 @@ function Home() {
     <MainLayout>
       <br />
       <QuickAbout />
+      <br />
       <AboutMe />
       <br />
       <WorkExperience />

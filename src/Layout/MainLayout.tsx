@@ -24,7 +24,7 @@ const MainLayout = ({ children }: Props) => {
       <main className="center-box text-center">{children}</main>
       <hr className="solid-line"></hr>
       <footer>
-        <div id="Contact">
+        <div>
           <Contact />
         </div>
       </footer>
