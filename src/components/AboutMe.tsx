@@ -29,6 +29,8 @@ const AboutMe = () => {
     }
   }, [dateTime]);
 
+  const [isShown, setIsShown] = useState(false);
+
   return (
     <>
       <div id="about-me">
@@ -36,10 +38,12 @@ const AboutMe = () => {
           <h1>About me</h1>
           <br />
           <p>
-            I enjoy working with my different interests. Both in a team with
-            peers to bounce ideas off on, but also independently. I enjoy
-            socializing with friends both in-person, but also over a good game
-            on the computer.
+            When I'm not at school or work, I enjoy being active either in the
+            gym or playing football the later I also watch a lot of. A good
+            online co-op game with my friends is always fun, but we also try and
+            hangout face to face as often as possible. I also try and stay
+            creative by building/designing LEGO. I have even started
+            photographing my builds and sharing them online.
           </p>
         </div>
         <br />
@@ -58,14 +62,34 @@ const AboutMe = () => {
           </div>
           <div className="small-element-containers">
             <h2>Interests</h2>
-            <p>
-              I enjoy keeping up with the newest technologies, movies, and
-              games. Watching and playing football in my spare time, and animals
-              have a special place in my heart. Along with collecting and
-              designing LEGO.
-            </p>
+            <ul className="emoji-list">
+              <li>
+                Football cheering for Tottenham and the Danish national team.
+              </li>
+              <li>Counter Strike (and other co-op games) with friends</li>
+              <li>Building/designing/photographing LEGO.</li>
+              <li>
+                <div className="wrap-flex">
+                  <p>Fun animal facts!</p>
+                  <div>
+                    <p
+                      onMouseEnter={() => setIsShown(true)}
+                      onMouseLeave={() => setIsShown(false)}
+                    >
+                      🦝
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
+        {isShown && (
+          <p>
+            🦝Did you know that raccoons have dexterous front paws? That means
+            they hold their food kind of like a human when eating.
+          </p>
+        )}
       </div>
     </>
   );

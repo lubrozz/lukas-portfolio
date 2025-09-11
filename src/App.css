@@ -49,13 +49,18 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   padding: 1rem;
-  border: 1px solid red;
 }
 
 .inline-display {
   display: inline-block;
   padding-right: 1rem;
   vertical-align: middle;
+}
+
+.wrap-flex {
+  display: flex;
+  align-items: center; /* baseline | center | stretch */
+  justify-content: center;
 }
 
 .grey {
@@ -92,7 +97,7 @@ h2 {
   align-items: center;
   flex-wrap: nowrap;
   width: 100%;
-  padding: 2rem;
+  padding: 1rem;
   box-sizing: border-box;
   margin-bottom: 0;
   /*border: 1px solid red;*/
@@ -286,7 +291,7 @@ h2 {
   padding: 0.25rem;
 }
 
-/* From Uiverse.io by elijahgummer */ 
+/* From Uiverse.io by elijahgummer */
 .badge-date {
   position: relative;
   text-decoration: none;
@@ -316,5 +321,3 @@ h2 {
   border-radius: 999px;
   user-select: none;
 }
-
-

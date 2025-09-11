@@ -1,5 +1,6 @@
 /**
  * Starting the app with: npm run dev
+ *    Ctrl + C in terminal to stop local build.
  * Deploy the app with : npm run deploy
  */
 
