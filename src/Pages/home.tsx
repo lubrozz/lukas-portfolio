@@ -25,6 +25,13 @@ function Home() {
   return (
     <MainLayout>
       <br />
+      <i>
+        🚧 Hello and welcome to my page! I am currently learning front-end
+        development using React (vite and .tsx) to make this page. So it is
+        still under construction! 🚧
+      </i>
+      <br />
+      <br />
       <QuickAbout />
       <br />
       <AboutMe />
