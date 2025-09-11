@@ -2,6 +2,7 @@ import MainLayout from "../Layout/MainLayout";
 import AboutMe from "../components/AboutMe";
 import WorkExperience from "../components/WorkExperience";
 import QuickAbout from "../components/QuickAbout";
+import VolunteerExperience from "../components/VolunteerExperience";
 
 /**
  * --------The Alert--------
@@ -37,6 +38,8 @@ function Home() {
       <AboutMe />
       <br />
       <WorkExperience />
+      <br />
+      <VolunteerExperience />
     </MainLayout>
   );
 }
