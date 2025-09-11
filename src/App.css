@@ -321,3 +321,12 @@ h2 {
   border-radius: 999px;
   user-select: none;
 }
+
+.text-box-shadowed {
+  border-radius: 50px;
+  background: #e0e0e0;
+  padding: 15px;
+  box-shadow: 20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+  font-size: 95%;
+}
