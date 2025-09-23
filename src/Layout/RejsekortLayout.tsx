@@ -1,15 +1,14 @@
 import { Link } from "react-router-dom";
-import RejsekortFooter from "../components/RejsekortFooter";
-import RejsekortHeader from "../components/RejsekortHeader";
-import RejsekortScanButton from "../components/RejsekortScanButton";
+import RejsekortFooter from "../components/Rejsekort/RejsekortFooter";
+import RejsekortHeader from "../components/Rejsekort/RejsekortHeader";
+import RejsekortScanButton from "../components/Rejsekort/RejsekortScanButton";
+import BackToHomeButton from "../components/BackToHomeButton";
 
 const RejsekortLayout = () => {
   return (
     <>
       <div>
-        <Link className="button-81" to={"/"}>
-          Back to home
-        </Link>
+        <BackToHomeButton />
 
         <RejsekortHeader />
         <main>

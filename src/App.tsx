@@ -8,6 +8,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/home";
 import Rejsekort from "./Pages/rejsekort";
 import Projects from "./Pages/projects";
+import FitnessHome from "./Pages/FitnessTracker/fitnessHome";
 
 function App() {
   /**
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/rejsekort" element={<Rejsekort />} />
         <Route path="/Projects" element={<Projects />} />
+        <Route path="/FitnessTracker" element={<FitnessHome />} />
       </Routes>
     </Router>
   );

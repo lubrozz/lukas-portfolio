@@ -1,8 +1,8 @@
 import MainLayout from "../Layout/MainLayout";
-import AboutMe from "../components/AboutMe";
-import WorkExperience from "../components/WorkExperience";
-import QuickAbout from "../components/QuickAbout";
-import VolunteerExperience from "../components/VolunteerExperience";
+import AboutMe from "../components/CV-Page/AboutMe";
+import WorkExperience from "../components/CV-Page/WorkExperience";
+import QuickAbout from "../components/CV-Page/QuickAbout";
+import VolunteerExperience from "../components/CV-Page/VolunteerExperience";
 
 /**
  * --------The Alert--------

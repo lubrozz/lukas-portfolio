@@ -1,6 +1,6 @@
 import React, { ReactNode } from "react";
-import NavBar from "../components/NavBar";
-import Contact from "../components/Contact";
+import NavBar from "../components/CV-Page/NavBar";
+import Contact from "../components/CV-Page/Contact";
 
 interface Props {
   children: ReactNode;
