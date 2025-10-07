@@ -1,5 +1,5 @@
-import "../App.css";
-import profilePic from "../assets/profil-pic.png";
+import "../../App.css";
+import profilePic from "../../assets/profil-pic.png";
 import { SocialIcon } from "react-social-icons";
 
 const QuickAbout = () => {
