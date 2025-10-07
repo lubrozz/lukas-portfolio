@@ -219,6 +219,25 @@ h2 {
   }
 }
 
+.arrowed {
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  margin: 0 20px 20px 0;
+  border-radius: 1000px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.arrow-1 {
+  height: 15px;
+  width: 15px;
+  background-color: transparent;
+  border: 5px solid black;
+  border-width: 2px 2px 0 0;
+  transform: rotate(225deg);
+}
+
 /* Check for travel-check in */
 .circle {
   width: 50vw; /* Adjusts circle size based on viewport width */
@@ -326,7 +345,20 @@ h2 {
   border-radius: 50px;
   background: #e0e0e0;
   padding: 15px;
-  box-shadow: 20px 20px 60px #bebebe,
-             -20px -20px 60px #ffffff;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   font-size: 95%;
+}
+
+.FitnessHeader {
+  border-radius: 15px;
+  background: #223f75;
+  color: #fff;
+  border: 1px solid black;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 20rem;
+  font-size: 6vw;
 }
