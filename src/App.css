@@ -103,6 +103,16 @@ h2 {
   /*border: 1px solid red;*/
 }
 
+.col-container {
+  display: flex;
+  width: fit-content;
+}
+
+.my-col {
+  width: fit-content;
+  align-content: center;
+}
+
 .border-black {
   border: 3px solid black;
 }
@@ -219,21 +229,38 @@ h2 {
   }
 }
 
+.button-create {
+  display: inline-block;
+  border: 2px solid #24b4fb;
+  background-color: #24b4fb;
+  border-radius: 0.9em;
+  cursor: pointer;
+  padding: 0.8em 1.2em 0.8em 1em;
+  transition: all ease-in-out 0.2s;
+  font-size: 16px;
+}
+
+.button-create span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-weight: 600;
+}
+
 .arrowed {
   position: relative;
   height: fit-content;
   width: fit-content;
   padding: 0.5rem 1rem;
-  margin: 0 20px 20px 0;
-  border-radius: 1000px;
-  border: 1px solid rgba(0, 0, 0, 0.25);
+  margin: auto;
 }
 
 .arrow-1 {
   height: 15px;
   width: 15px;
   background-color: transparent;
-  border: 5px solid black;
+  border: 5px solid white;
   border-width: 2px 2px 0 0;
   transform: rotate(225deg);
 }
@@ -350,15 +377,24 @@ h2 {
 }
 
 .FitnessHeader {
-  border-radius: 15px;
-  background: #223f75;
-  color: #fff;
-  border: 1px solid black;
-  padding: 15px;
+  color: #b6a2ff;
+  padding: 5px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  align-items: left;
+  justify-content: left;
+  text-align: left;
   width: 20rem;
   font-size: 6vw;
+}
+
+.ExerciseGroup {
+  background-color: rgb(207, 207, 207);
+  color: #0d172a;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.dark-theme {
+  background-color: rgb(70, 70, 70);
+  color: white;
 }
