@@ -1,0 +1,13 @@
+{
+  "ExerciseGroups": [
+    {
+      "id": 1,
+      "title": "TestGroup",
+      "exercises": [
+        {
+          "title": "jump"
+        }
+      ]
+    }
+  ]
+}
