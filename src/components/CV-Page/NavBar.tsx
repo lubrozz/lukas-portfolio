@@ -18,7 +18,7 @@ const NavBar = () => {
         <Link className="navbar-links" to={"/rejsekort"}>
           rejsekort app
         </Link>
-        <Link className="navbar-links" to={"/FitnessPage"}>
+        <Link className="navbar-links" to={"/FitnessLogin"}>
           Fitness Tracker
         </Link>
       </nav>

@@ -9,6 +9,7 @@ import Home from "./Pages/home";
 import Rejsekort from "./Pages/rejsekort";
 import Projects from "./Pages/projects";
 import FitnessHome from "./Pages/FitnessTracker/fitnessHome";
+import FitnessLogin from "./Pages/FitnessTracker/fitnessLogin";
 
 function App() {
   /**
@@ -22,6 +23,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/rejsekort" element={<Rejsekort />} />
         <Route path="/Projects" element={<Projects />} />
+        <Route path="/FitnessLogin" element={<FitnessLogin />} />
         <Route path="/FitnessPage" element={<FitnessHome />} />
       </Routes>
     </Router>
